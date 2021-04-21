@@ -21,6 +21,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.hidden{
+  display: none;
+}
 
 /* LAYOUT */
 main {
@@ -64,7 +67,9 @@ main {
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.4); 
+   transition: all .9s;
+
 }
 .player--active .name {
   font-weight: 700;
@@ -85,7 +90,7 @@ main {
   width: 65%;
   padding: 2rem;
   text-align: center;
-  transition: all 0.75s;
+  transition: all 0.9s;
 }
 
 .current-label {
